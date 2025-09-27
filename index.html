@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="flex flex-col gap-4">
+        <div>
+            <form action="" class="flex flex-col m-1 p-1 items-center justify-center gap-2">
+                <label for="city">Weather</label>
+                <input type="text" class="border-2 border-amber-200 m-1 p-1 rounded-lg " placeholder="Enter city name" id="city">
+                <button class="bg-blue-500 text-white m-1 p-1 rounded">Get Weather</button>
+            </form>
+            <p id="warning" class="bg-red-700"></p>
+        </div>
+        <div class="bg-blue-400 h-screen w-screen grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-5 gap-y-4 gap-x-3" id="weatherResult">
+            
+        </div>
+       
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
