@@ -2,7 +2,7 @@
 const submit = document.querySelector('button')
 let result = document.querySelector('#weatherResult')
 const city = document.querySelector('#city')
-const apiKey = '4757beabadc7820a872162e7e19478a6'
+const apiKey = ''
 const warning = document.querySelector('#warning')
 
 submit.addEventListener('click', function(e){
